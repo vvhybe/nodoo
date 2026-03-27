@@ -1,5 +1,5 @@
 name: Feature Request 💡
-description: Suggest an idea for Odoo-SDK
+description: Suggest an idea for Odoo Client
 labels: ["enhancement"]
 body:
   - type: textarea

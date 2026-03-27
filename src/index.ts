@@ -16,7 +16,7 @@ const DEFAULTS = {
 } as const;
 
 /**
- * Main entry point for the odoo-sdk package.
+ * Main entry point for the @vvhybe/odoo-client package.
  *
  * @example
  * ```ts

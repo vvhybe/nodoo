@@ -1,12 +1,12 @@
-# Contributing to Odoo-SDK
+# Contributing to Odoo Client
 
-First off, thank you for considering contributing to Odoo-SDK! It's people like you that make Odoo-SDK such a great tool.
+First off, thank you for considering contributing to Odoo Client! It's people like you that make Odoo Client such a great tool.
 
 ## How Can I Contribute?
 
 ### Reporting Bugs
 
-This section guides you through submitting a bug report for Odoo-SDK. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior, and find related reports.
+This section guides you through submitting a bug report for Odoo Client. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior, and find related reports.
 
 - **Check for existing issues**: Before you create a new issue, please check if the issue has already been reported.
 
@@ -42,4 +42,4 @@ If you have an idea for a new feature or improvement:
 
 ## Legal
 
-By contributing to Odoo-SDK, you agree that your contributions will be licensed under its [MIT License](LICENSE).
+By contributing to Odoo Client, you agree that your contributions will be licensed under its [MIT License](LICENSE).

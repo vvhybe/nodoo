@@ -1,5 +1,5 @@
 {
-  "name": "odoo-sdk",
+  "name": "@vvhybe/odoo-client",
   "version": "0.1.0",
   "publishConfig": {
     "access": "public"
@@ -114,12 +114,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vvhybe/odoo-sdk.git"
+    "url": "git+https://github.com/vvhybe/@vvhybe/odoo-client.git"
   },
   "bugs": {
-    "url": "https://github.com/vvhybe/odoo-sdk/issues"
+    "url": "https://github.com/vvhybe/@vvhybe/odoo-client/issues"
   },
-  "homepage": "https://github.com/vvhybe/odoo-sdk#readme",
+  "homepage": "https://github.com/vvhybe/@vvhybe/odoo-client#readme",
   "dependencies": {
     "jsdom": "^29.0.1"
   },

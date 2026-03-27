@@ -1,17 +1,17 @@
 <!-- markdownlint-disable MD033 -->
 <h1>
-  <img src=".github/assets/logo.svg" alt="odoo-sdk logo" width="35" style="vertical-align: middle;"/>
-  <span style="vertical-align: middle;">odoo-sdk</span>
+  <img src=".github/assets/logo.svg" alt="@vvhybe/odoo-client logo" width="35" style="vertical-align: middle;"/>
+  <span style="vertical-align: middle;">@vvhybe/odoo-client</span>
 </h1>
 
 <p align="center">
-  <img src=".github/assets/banner.svg" alt="odoo-sdk banner" width="100%"/>
+  <img src=".github/assets/banner.svg" alt="@vvhybe/odoo-client banner" width="100%"/>
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/odoo-sdk"><img src="https://img.shields.io/npm/v/odoo-sdk?color=1D9E75&labelColor=0D1117" alt="npm version"/></a>
-  <a href="https://github.com/vvhybe/odoo-sdk/actions/workflows/ci.yml"><img src="https://github.com/vvhybe/odoo-sdk/actions/workflows/ci.yml/badge.svg" alt="CI"/></a>
-  <a href="https://codecov.io/gh/vvhybe/odoo-sdk"><img src="https://img.shields.io/codecov/c/github/vvhybe/odoo-sdk?color=7F77DD&labelColor=0D1117" alt="coverage"/></a>
+  <a href="https://www.npmjs.com/package/@vvhybe/odoo-client"><img src="https://img.shields.io/npm/v/@vvhybe/odoo-client?color=1D9E75&labelColor=0D1117" alt="npm version"/></a>
+  <a href="https://github.com/vvhybe/@vvhybe/odoo-client/actions/workflows/ci.yml"><img src="https://github.com/vvhybe/@vvhybe/odoo-client/actions/workflows/ci.yml/badge.svg" alt="CI"/></a>
+  <a href="https://codecov.io/gh/vvhybe/@vvhybe/odoo-client"><img src="https://img.shields.io/codecov/c/github/vvhybe/@vvhybe/odoo-client?color=7F77DD&labelColor=0D1117" alt="coverage"/></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-yellow?labelColor=0D1117" alt="license"/></a>
   <img src="https://img.shields.io/badge/Node.js-%3E%3D18-339933?labelColor=0D1117" alt="Node.js"/>
   <img src="https://img.shields.io/badge/Odoo-14--19-714B67?labelColor=0D1117" alt="Odoo"/>
@@ -38,7 +38,7 @@
 </h2>
 
 <p align="center">
-  <img src=".github/assets/architecture.svg" alt="odoo-sdk architecture diagram" width="860"/>
+  <img src=".github/assets/architecture.svg" alt="@vvhybe/odoo-client architecture diagram" width="860"/>
 </p>
 
 <h3>
@@ -70,11 +70,11 @@ The protocol is hot-swappable — set `protocol: 'xmlrpc'` and the same ORM API 
 </h2>
 
 ```bash
-npm install odoo-sdk
+npm install @vvhybe/odoo-client
 # or
-pnpm add odoo-sdk
+pnpm add @vvhybe/odoo-client
 # or
-yarn add odoo-sdk
+yarn add @vvhybe/odoo-client
 ```
 
 <h2>
@@ -83,7 +83,7 @@ yarn add odoo-sdk
 </h2>
 
 ```ts
-import { OdooConnect } from 'odoo-sdk';
+import { OdooConnect } from '@vvhybe/odoo-client';
 
 // Option A: factory method (authenticates immediately)
 const odoo = await OdooConnect.connect({
@@ -224,7 +224,7 @@ orm.callMethod<T>(model, method, args?, kwargs?, context?): Promise<T>
 Domains follow Odoo's standard domain format:
 
 ```ts
-import type { OdooDomain } from 'odoo-sdk';
+import type { OdooDomain } from '@vvhybe/odoo-client';
 
 const domain: OdooDomain = [
   ['is_company', '=', true],
@@ -247,7 +247,7 @@ Supported leaf operators: `=`, `!=`, `>`, `>=`, `<`, `<=`, `like`, `ilike`, `not
 </h3>
 
 ```ts
-import type { TypedOdooRecord } from 'odoo-sdk';
+import type { TypedOdooRecord } from '@vvhybe/odoo-client';
 
 interface ResPartner {
   name: string;
@@ -330,7 +330,7 @@ import {
   OdooNetworkError,
   OdooTimeoutError,
   OdooRpcError,
-} from 'odoo-sdk';
+} from '@vvhybe/odoo-client';
 
 try {
   await odoo.orm.create('res.partner', { name: '' });
@@ -354,7 +354,7 @@ try {
 
 ```ts
 // lib/odoo.ts (server-only)
-import { OdooConnect } from 'odoo-sdk';
+import { OdooConnect } from '@vvhybe/odoo-client';
 
 let _client: OdooConnect | null = null;
 
@@ -411,7 +411,7 @@ const result = await odoo.xmlRpc.executeKw(
 </h3>
 
 ```ts
-import type { OdooCommand } from 'odoo-sdk';
+import type { OdooCommand } from '@vvhybe/odoo-client';
 
 await odoo.orm.write('sale.order', [orderId], {
   order_line: [
@@ -459,7 +459,7 @@ To ensure a healthy and welcoming community, we adhere to the following standard
 - [ ] `ReportService` — render and download PDF/XLSX reports
 - [ ] `WebsocketService` — Odoo bus real-time subscriptions
 - [ ] Batch request support (single HTTP round-trip for multiple calls)
-- [ ] React hooks package (`odoo-sdk-react`)
+- [ ] React hooks package (`@vvhybe/odoo-client-react`)
 - [ ] Model type generator from `fields_get` output
 
 <h2>

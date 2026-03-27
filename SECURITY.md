@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-Only the latest major version of Odoo-SDK is supported for security updates.
+Only the latest major version of Odoo Client is supported for security updates.
 
 | Version | Supported          |
 | ------- | ------------------ |
@@ -14,8 +14,8 @@ Only the latest major version of Odoo-SDK is supported for security updates.
 We take security seriously! If you discover a vulnerability, please do NOT use the public issue tracker. Instead, please report it to our security team:
 
 - **Email**: <vvhybe@hotmail.com>
-- **Subject**: Odoo-SDK Security Vulnerability
+- **Subject**: Odoo Client Security Vulnerability
 
 Please provide a clear description and any steps to reproduce. We will acknowledge your report and keep you updated on the fix.
 
-Thank you for helping keep Odoo-SDK secure!
+Thank you for helping keep Odoo Client secure!
