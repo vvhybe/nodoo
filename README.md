@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD033 -->
 <h1>
   <img src=".github/assets/logo.svg" alt="@vvhybe/odoo-client logo" width="35" style="vertical-align: middle;"/>
-  <span style="vertical-align: middle;">@vvhybe/odoo-client</span>
+  <span style="vertical-align: middle;">Odoo Client</span>
 </h1>
 
 <p align="center">
@@ -10,8 +10,8 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@vvhybe/odoo-client"><img src="https://img.shields.io/npm/v/@vvhybe/odoo-client?color=1D9E75&labelColor=0D1117" alt="npm version"/></a>
-  <a href="https://github.com/vvhybe/@vvhybe/odoo-client/actions/workflows/ci.yml"><img src="https://github.com/vvhybe/@vvhybe/odoo-client/actions/workflows/ci.yml/badge.svg" alt="CI"/></a>
-  <a href="https://codecov.io/gh/vvhybe/@vvhybe/odoo-client"><img src="https://img.shields.io/codecov/c/github/vvhybe/@vvhybe/odoo-client?color=7F77DD&labelColor=0D1117" alt="coverage"/></a>
+  <a href="https://github.com/vvhybe/odoo-client/actions/workflows/ci.yml"><img src="https://github.com/vvhybe/odoo-client/actions/workflows/ci.yml/badge.svg" alt="CI"/></a>
+  <a href="https://codecov.io/gh/vvhybe/odoo-client"><img src="https://img.shields.io/codecov/c/github/vvhybe/odoo-client?color=7F77DD&labelColor=0D1117" alt="coverage"/></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-yellow?labelColor=0D1117" alt="license"/></a>
   <img src="https://img.shields.io/badge/Node.js-%3E%3D18-339933?labelColor=0D1117" alt="Node.js"/>
   <img src="https://img.shields.io/badge/Odoo-14--19-714B67?labelColor=0D1117" alt="Odoo"/>
